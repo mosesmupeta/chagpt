@@ -1,3 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+    <py-script>
+    
 import os
 import openai
 import gradio as gr
@@ -53,3 +59,6 @@ with block:
     submit.click(chatgpt_clone, inputs=[message, state], outputs=[chatbot, state])
 
 block.launch(debug = True)
+        </py-script>
+    </body>
+</html>
